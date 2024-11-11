@@ -1,0 +1,13 @@
+{
+    "name": "slack-appreciate-app",
+    "version": "1.0.0",
+    "description": "A simple Slack app for appreciating colleagues.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  

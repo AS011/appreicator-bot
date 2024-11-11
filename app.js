@@ -14,6 +14,11 @@ app.post('/appreciate', (req, res) => {
   });
 });
 
+// Simple GET route for testing
+app.get('/', (req, res) => {
+  res.send('Slack Appreciate App is running!');
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`App is running on port ${port}`);
